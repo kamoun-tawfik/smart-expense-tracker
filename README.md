@@ -1,20 +1,17 @@
 💸 Smart Expense Tracker
 A fully-featured Flutter mobile application for personal finance management. Scan receipts with your camera, track expenses, analyze spending patterns, and manage budgets — all 100% on-device, no cloud required.
 
-📱 Screenshots
-OCR Result:
+| Login | Register | Dashboard |
+|---|---|---|
+| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) | ![Dashboard](screenshots/dashboard.png) |
 
-Receipt Scanner:
+| Receipt Scanner | OCR Result | Expense List |
+|---|---|---|
+| ![Scanner](screenshots/receipt_scanner.png) | ![OCR](screenshots/extract_details.png) | ![Expenses](screenshots/expense_list.png) |
 
-Dashboard:
-
-Expense_list:
-
-Analytics:
-
-Login:
-
-
+| Analytics | Budget Alert | Profile |
+|---|---|---|
+| ![Analytics](screenshots/analytics.png) | ![Budget](screenshots/budget_limit.png) | ![Profile](screenshots/profile.png) |
 ✨ Features
 🔐 Authentication & Profile
 
