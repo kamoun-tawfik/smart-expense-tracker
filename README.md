@@ -12,6 +12,8 @@ A fully-featured Flutter mobile application for personal finance management. Sca
 | Analytics | Budget Alert | Profile |
 |---|---|---|
 | ![Analytics](screenshots/analytics.png) | ![Budget](screenshots/budget_limit.png) | ![Profile](screenshots/profile.png) |
+
+
 ✨ Features
 🔐 Authentication & Profile
 
