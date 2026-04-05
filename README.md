@@ -63,17 +63,34 @@ LayerTechnologyFrameworkFlutter 3.7+ (Dart)State ManagementProviderLocal Databas
 📂 Project Structure
 
 lib/
+
 ├── main.dart
+
 ├── core/
+
 │   ├── constants/
-│   │   └── currencies.dart          # Supported currencies (HUF, EUR, USD)
+
+│   │   └── currencies.dart  
+# Supported currencies (HUF, EUR, USD)
+
 │   ├── providers/
-│   │   └── currency_provider.dart   # Global currency state
+
+│   │   └── currency_provider.dart  
+# Global currency state
+
 │   ├── utils/
-│   │   ├── currency_utils.dart      # Currency formatting helpers
-│   │   └── image_processor.dart     # Image pre-processing for OCR
+
+│   │   ├── currency_utils.dart   
+# Currency formatting helpers
+
+│   │   └── image_processor.dart   
+# Image pre-processing for OCR
+
 │   └── widgets/
-│       └── price_display.dart       # Reusable currency-aware price widget
+
+│       └── price_display.dart  
+# Reusable currency-aware price widget
+
 └── features/
     ├── analytics/presentation/screens/
     │   └── analytics_screen.dart    # Charts, budget tracking, category breakdown
