@@ -15,6 +15,7 @@ A fully-featured Flutter mobile application for personal finance management. Sca
 
 
 ✨ Features
+
 🔐 Authentication & Profile
 
 Email/password registration and login
