@@ -8,15 +8,15 @@ A fully-featured Flutter mobile application for personal finance management. Sca
 
 | Login | Register | Dashboard |
 |---|---|---|
-| <img src="screenshots/login.png" width="200"> | <img src="screenshots/register.png" width="200"> | <img src="screenshots/dashboard.png" width="200"> |
+| <img src="screenshots/login.png" width="220"> | <img src="screenshots/register.png" width="220"> | <img src="screenshots/dashboard.png" width="220"> |
 
 | Receipt Scanner | OCR Result | Expense List |
 |---|---|---|
-| <img src="screenshots/receipt_scanner.png" width="200"> | <img src="screenshots/extract_details.png" width="200"> | <img src="screenshots/expense_list.png" width="200"> |
+| <img src="screenshots/receipt_scanner.png" width="220"> | <img src="screenshots/extract_details.png" width="220"> | <img src="screenshots/expense_list.png" width="220"> |
 
 | Analytics | Budget Alert | Profile |
 |---|---|---|
-| <img src="screenshots/analytics.png" width="200"> | <img src="screenshots/budget_limit.png" width="200"> | <img src="screenshots/profile.png" width="200"> |
+| <img src="screenshots/analytics.png" width="220"> | <img src="screenshots/budget_limit.png" width="220"> | <img src="screenshots/profile.png" width="220"> |
 
 ---
 
@@ -67,8 +67,6 @@ A fully-featured Flutter mobile application for personal finance management. Sca
 | Camera | Flutter Camera |
 | Image Picker | image_picker |
 | Charts | fl_chart |
-| Auth (local) | crypto (SHA hashing) |
-| Internationalization | intl |
 | Permissions | permission_handler |
 
 ---
@@ -146,7 +144,7 @@ The following permissions are required and handled automatically by `permission_
 ```
 Camera / Gallery
       ↓
-Image Pre-processing (orientation correction via EXIF)
+Image Pre-processing
       ↓
 Google ML Kit Text Recognition (on-device, offline)
       ↓
@@ -162,7 +160,7 @@ Pre-filled Expense Form → Saved to Hive
 ## 🔒 Privacy & Security
 
 - All data is stored **locally on-device** using Hive
-- Passwords are hashed using the `crypto` package before storage
+- Passwords are hashed before storage
 - No data is ever sent to external servers
 - No analytics, tracking, or ads
 
