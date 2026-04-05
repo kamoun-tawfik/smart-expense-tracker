@@ -71,8 +71,7 @@ lib/
 │   │   └── currency_provider.dart   # Global currency state
 │   ├── utils/
 │   │   ├── currency_utils.dart    # Currency formatting helpers
-│   │   └── image_processor.dart   
-# Image pre-processing for OCR
+│   │   └── image_processor.dart    # Image pre-processing for OCR
 │   └── widgets/
 │       └── price_display.dart    # Reusable currency-aware price widget
 └── features/
