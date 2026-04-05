@@ -57,9 +57,11 @@ Budget exceeded alerts with overspend amount highlighted
 
 
 🛠️ Tech Stack
+
 LayerTechnologyFrameworkFlutter 3.7+ (Dart)State ManagementProviderLocal DatabaseHive + Hive FlutterOn-Device OCRGoogle ML Kit Text RecognitionCameraFlutter CameraImage Pickerimage_pickerChartsfl_chartAuth (local)crypto (SHA hashing)InternationalizationintlPermissionspermission_handler
 
 📂 Project Structure
+
 lib/
 ├── main.dart
 ├── core/
@@ -89,7 +91,9 @@ lib/
     └── ocr/presentation/screens/
         └── ocr_screen.dart          # ML Kit OCR processing & data extraction
 
+
 🚀 Getting Started
+
 Prerequisites
 
 Flutter SDK >=3.7.2
@@ -98,25 +102,34 @@ Android Studio or VS Code with Flutter & Dart extensions
 Physical Android/iOS device or emulator with camera support
 
 Installation
+
 bash# Clone the repository
+
 git clone https://github.com/kamoun-tawfik/smart-expense-tracker.git
 
 # Navigate into the project
+
 cd smart-expense-tracker
 
 # Install dependencies
+
 flutter pub get
 
 # Run the app
+
 flutter run
+
 Android Permissions
+
 The following permissions are required and handled automatically by permission_handler:
 
 CAMERA — for live receipt scanning
+
 READ_EXTERNAL_STORAGE / READ_MEDIA_IMAGES — for gallery image picker
 
 
 🔍 How the OCR Pipeline Works
+
 Camera / Gallery
       ↓
 Image Pre-processing (orientation correction via EXIF)
@@ -130,10 +143,15 @@ Extracted: Vendor · Date · Total · Tax
 Pre-filled Expense Form → Saved to Hive
 
 User opens the Receipt Scanner and captures or picks a receipt image
+
 The image is pre-processed to correct orientation using EXIF data
+
 Google ML Kit processes the image entirely on-device
+
 A custom parser scans the recognized text for vendor name, date patterns, total and tax amounts
+
 Extracted fields are pre-populated in the Add Expense form for user review
+
 Confirmed expenses are stored locally in Hive with password hashing via crypto
 
 
@@ -146,8 +164,11 @@ No analytics, tracking, or ads
 
 
 🎓 About
+
 Built as a university project at the Budapest University of Technology and Economics (BME) as part of the MSc Computer Engineering — Software Engineering specialization program.
 
 👤 Author
+
 Tawfik Kamoun
+
 MSc Software Engineering @ BME Budapest
